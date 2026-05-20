@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uki - Company Register</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gradient-to-br from-slate-50 to-gray-100 flex flex-col min-h-screen">
+    <!-- Navigation Bar -->
+    <nav class="sticky top-0 z-50 bg-white backdrop-blur-md bg-opacity-95 shadow-md border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-6 py-3">
+            <div class="flex justify-between items-center">
+                <!-- Logo on Left -->
+                <div class="flex items-center gap-2">
+                    <img src="uki.png" alt="Uki Logo" class="h-10 w-auto" />
+                </div>
+
+                <!-- Buttons on Right - Desktop -->
+                <div class="flex items-center gap-8">
+                    <a href="index.html"
+                        class="text-gray-600 hover:text-blue-600 font-semibold transition duration-300 relative group">
+                        Home
+                        <span
+                            class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                    <a href="product.html"
+                        class="text-gray-600 hover:text-blue-600 font-semibold transition duration-300 relative group">
+                        Product
+                        <span
+                            class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                    <a href="register.html"
+                        class="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-8 py-2.5 rounded-full font-semibold shadow-md hover:shadow-lg transition duration-300 transform hover:scale-105">
+                        Get Started
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="flex-grow max-w-6xl mx-auto px-6 py-12 w-full">
+        <h1 class="text-5xl font-bold bg-gradient-to-r from-slate-800 to-slate-600 bg-clip-text text-transparent mb-4">
+            Welcome to Uki
+        </h1>
+        <p class="text-lg text-gray-600">
+            Your platform for managing and registering companies.
+        </p>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gradient-to-r from-blue-900 to-slate-900 text-gray-300 mt-16">
+        <div class="max-w-7xl mx-auto px-6 py-12">
+            <div class="flex justify-between items-center">
+                <!-- Left: Logo and Brand -->
+                <div class="flex items-center gap-3">
+                    <img src="uki.png" alt="Uki Logo" class="h-8 w-auto opacity-90" />
+                </div>
+
+                <!-- Right: Copyright -->
+                <div class="text-center md:text-right">
+                    <p class="text-sm">© 2026 Uki. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
